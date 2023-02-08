@@ -1,0 +1,78 @@
+#ante
+{
+	display: block;
+	width: auto;
+	height: 100px;
+	background-color: #024c68;
+	text-align: center;
+	color: white;
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	padding: 10px;
+}
+
+body
+{
+	overflow: hidden;
+}
+#left
+{
+	color: white;
+	position: absolute;
+	top: 83%;
+	left: 67px;
+	width: 98px;
+	height: 30px;
+	background-color: #024c68;
+	border-radius:25px;
+	-moz-border-radius:25px;
+	box-shadow: 0px 10px 5px #004F00;
+	text-align: center;
+	padding-top: 8px;
+	padding-left: 0px;
+}
+
+.cards
+{
+	color: white;
+	text-align: right;
+}
+
+#stats
+{
+	height: 100px;
+	width: 275px;
+	background-color: #024c68;
+	position: absolute;
+	left: 81%;
+	font-size: 150%;
+	color: white;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	padding-top: 20px;
+	border:2px solid;
+	border-top-left-radius:25px;
+	border-bottom-left-radius:25px;
+	-moz-border-border-top-left-radius:25px;
+	-moz-border-bottom-left-radius:25px;
+	box-shadow: -10px 10px 5px #004F00
+}
+
+.currentMoney
+{
+	padding-left: 25px;
+}
+
+img::-moz-selection
+{
+	background-color: transparent;
+	color: transparent;
+}
+
+.new
+{	
+	position: absolute;
+	top: 40%;
+	left: 50%;
+}
